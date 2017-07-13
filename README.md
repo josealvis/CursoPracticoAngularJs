@@ -1,4 +1,4 @@
-# Curso práctico AngularJs
+# Curso práctico FrontEnd con AngularJs
 
 Este es el proyecto para el curso de AngularJs.
 
@@ -27,3 +27,10 @@ var nombre = "José Alvis"
 console.log("Nombre: ", nombre);
 //Nombre: José Alvis
 ```
+
+
+
+
+## Documentación
+
+* [Presentacion 1 ](Documentos/presentacion1.pdf) :closed_book:
