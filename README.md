@@ -28,6 +28,62 @@ console.log("Nombre: ", nombre);
 //Nombre: José Alvis
 ```
 
+## Practica 2 : par o impar
+
+Define una función que reciba un numero x como parametro, e imprima los numeros del 0 al numero x,
+señalando si son par o impar.
+
+> Requerimientos del código:
+>- Defina una `funcion` llamada 'imprimirNumeros'.
+>- Use un bucle `FOR`.
+>- Use el condicional `IF` para determinar si el numero es par o impar.
+
+
+## Ejemplo
+
+```javascript
+
+imprimirNumeros(3);
+//debe imprimir en consola:
+// 1 impar
+// 2 par
+// 3 impar 
+
+
+```
+## Practica 3 : Array numeros pares
+
+Define una función que  reciba como parametro  un número x y esta devuelva un array con los numeros pares 
+del 0 al número x.
+
+> Requerimientos del código:
+>- Defina una `funcion` llamada 'numeroPares'.
+>- Definir una variable dentro de la funcion llamada 'arrayPar'.
+>- Use un bucle `FOR`.
+>- Use el condicional `IF` para determinar si el numero es par.
+>- Use `push` para agregar valores a 'arrayPar'.
+>- Use `return` para devolver el array 'arrayPar'.
+
+
+## Ejemplo
+
+```javascript
+
+var newArrayPar = numeroPares(100);
+// la función debe devolver: [2,4,6,8,10,12,...,100]. 
+
+//ejemplo
+function numeroPares(numero){
+    var arrayPar = [];
+   // lógica para definir los números pares.
+   //...
+    return  arrayPar;
+}
+
+
+```
+
+
 
 
 
