@@ -37,4 +37,4 @@ console.log("Nombre: ", nombre);
 * [Presentación #1](https://docs.google.com/presentation/d/1VKzNc8qd0Ahcj_voUKiXnWOR8HCrm_6ndgEeQyFYxSY/edit?usp=sharing) :closed_book:
 
 # Videos
-* [clonar repositorio git con Visual Studio Code] (https://www.youtube.com/watch?v=VOwyH2-VCVY) :movie_camera:
+* [clonar repositorio git con Visual Studio Code](https://www.youtube.com/watch?v=VOwyH2-VCVY) :movie_camera:
