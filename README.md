@@ -33,4 +33,5 @@ console.log("Nombre: ", nombre);
 
 ## Documentación
 
-* [Presentacion 1 ](Documentos/presentacion1.pdf) :closed_book:
+* [Programa del curos ](https://docs.google.com/document/d/1j3U61KuTUJPq7oczKixI14C_hE8reU2We5R_ZkwTryo/edit?usp=sharing) :closed_book:
+* [Presentación #1](https://docs.google.com/presentation/d/1VKzNc8qd0Ahcj_voUKiXnWOR8HCrm_6ndgEeQyFYxSY/edit?usp=sharing) :closed_book:
