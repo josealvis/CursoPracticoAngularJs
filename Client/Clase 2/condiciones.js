@@ -1,17 +1,23 @@
 (function () {
     'use strict'
-    //if else
+ debugger
+
 
     // ternarios
     // sintaxis
     //condicion ? expresion1 : expresion2;
+
+var edad = 16;
+
+edad >= 18 ? console.log("Usted pasa la mayoria  de edad") : console.log("Usted es menor de edad") ;
+    
 
 
 
 
     //switch
 
-    debugger
+   /* debugger
     switch ("jose") {
         case 1:
             console.log("el valor es 1.");
@@ -23,6 +29,6 @@
             console.log("El valor es reconocido.");
             break;
     }
-
+*/
 
 })();
