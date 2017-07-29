@@ -2,9 +2,14 @@
 'use strict'
 
 
+
+
+comparar;
+/*
 // operadores arictmeticos
-   var suma = 5 +5;
-   var resta =  5-2;
+   var suma = 5 + 5;
+
+   var resta =  5 - 2;
    var division = 12/3;
    var multiplicacion = 4*4;
    var modulo = 12%2;
@@ -43,5 +48,5 @@ var comparar =  2 == 2;// valores iguales
     comparar =  2<3;// true
     comparar = 3>=3;// true
     comparar = 2<=2;// true
-
+*/
 })();
