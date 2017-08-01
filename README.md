@@ -90,7 +90,7 @@ Define los siguientes métodos para el perro:
 * Ladrar(El cual debe imprimir un texto).
 * Comer(El cual debe imprimir un texto).
 * getEdad(El cual debe imprimir la edad según la añoNacimiento).
-* getNombreYRaza(Que impirma las propiedades nombre y raza).
+* getNombreYRaza(Que imprima las propiedades nombre y raza).
 
 > Requerimientos del código:
 >- Usar una función constructora .
