@@ -82,6 +82,29 @@ function numeroPares(numero){
 
 
 ```
+## Practica 4 : Mascota
+
+Crea un objeto que represente a un  perro, el cual debe tener las siguientes propiedades: nombre, raza, añoNacimiento, sexo.
+
+Define los siguientes métodos para el perro:
+* Ladrar(El cual debe imprimir un texto).
+* Comer(El cual debe imprimir un texto).
+* getEdad(El cual debe imprimir la edad según la añoNacimiento).
+* getNombreYRaza(El cual las propiedades nombre y raza).
+
+> Requerimientos del código:
+>- Usar una función constructora .
+>- La función debe recibir el nombre, la raza, el añoNacimiento  y el sexo como parametros .
+
+## Ejemplo
+
+```javascript
+ var perro1 = new Perro("Toby", "rottweiler", 2010, "Macho");
+
+ var edad = perro1.getEdad();
+// debe devolver 7 .
+
+```
 
 
 
@@ -91,6 +114,7 @@ function numeroPares(numero){
 
 * [Programa del curos ](https://docs.google.com/document/d/1j3U61KuTUJPq7oczKixI14C_hE8reU2We5R_ZkwTryo/edit?usp=sharing) :closed_book:
 * [Presentación #1](https://docs.google.com/presentation/d/1VKzNc8qd0Ahcj_voUKiXnWOR8HCrm_6ndgEeQyFYxSY/edit?usp=sharing) :closed_book:
+* [Presentación Objetos](https://docs.google.com/presentation/d/11qYio7S2bobqWcVd-HqLx3n_3q20sNKlbC9BwAcotw8/edit?usp=sharing) :closed_book:
 
 ### Videos
 * [clonar repositorio git con Visual Studio Code](https://www.youtube.com/watch?v=VOwyH2-VCVY) :movie_camera:
