@@ -106,6 +106,17 @@ Define los siguientes métodos para el perro:
 
 ```
 
+## Practica 5 : Pokedex
+
+Utilizando el archivo Js [pokedex.js](ClasesJS/Clase3/pokedex.js) Escribe un algoritmo que haga los siguiente:
+
+* Imprimir todos los pokemones de tipo 'fire'.
+* Imprimir todos los pokemones que tiene defensa > 55.
+* Imprimir todos los pokemones de tipo 'grass' y que tengan evolución.
+* Imprimir todos los pokemones con su nombre  y su número  de identificación .
+
+
+
 
 
 
