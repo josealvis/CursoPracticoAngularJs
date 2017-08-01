@@ -28,7 +28,7 @@ console.log("Nombre: ", nombre);
 //Nombre: José Alvis
 ```
 
-## Practica 2 : par o impar
+## Práctica 2 : par o impar
 
 Define una función que reciba un numero x como parametro, e imprima los numeros del 0 al numero x,
 señalando si son par o impar.
@@ -51,7 +51,7 @@ imprimirNumeros(3);
 
 
 ```
-## Practica 3 : Array numeros pares
+## Práctica 3 : Array numeros pares
 
 Define una función que  reciba como parametro  un número x y esta devuelva un array con los numeros pares 
 del 0 al número x.
@@ -82,7 +82,7 @@ function numeroPares(numero){
 
 
 ```
-## Practica 4 : Mascota
+## Práctica 4 : Mascota
 
 Crea un objeto que represente a un  perro, el cual debe tener las siguientes propiedades: nombre, raza, añoNacimiento, sexo.
 
@@ -106,7 +106,7 @@ Define los siguientes métodos para el perro:
 
 ```
 
-## Practica 5 : Pokedex
+## Práctica 5 : Pokedex
 
 Utilizando el archivo Js [pokedex.js](https://raw.githubusercontent.com/josealvis/CursoPracticoAngularJs/master/ClasesJS/Clase%203/pokedex.js) Escribe un algoritmo que haga los siguiente:
 
