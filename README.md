@@ -28,7 +28,7 @@ console.log("Nombre: ", nombre);
 //Nombre: José Alvis
 ```
 
-## Practica 2 : par o impar
+## Práctica 2 : par o impar
 
 Define una función que reciba un numero x como parametro, e imprima los numeros del 0 al numero x,
 señalando si son par o impar.
@@ -51,7 +51,7 @@ imprimirNumeros(3);
 
 
 ```
-## Practica 3 : Array numeros pares
+## Práctica 3 : Array numeros pares
 
 Define una función que  reciba como parametro  un número x y esta devuelva un array con los numeros pares 
 del 0 al número x.
@@ -82,6 +82,40 @@ function numeroPares(numero){
 
 
 ```
+## Práctica 4 : Mascota
+
+Crea un objeto que represente a un  perro, el cual debe tener las siguientes propiedades: nombre, raza, añoNacimiento, sexo.
+
+Define los siguientes métodos para el perro:
+* Ladrar(El cual debe imprimir un texto).
+* Comer(El cual debe imprimir un texto).
+* getEdad(El cual debe imprimir la edad según la añoNacimiento).
+* getNombreYRaza(Que imprima las propiedades nombre y raza).
+
+> Requerimientos del código:
+>- Usar una función constructora .
+>- La función debe recibir el nombre, la raza, el añoNacimiento  y el sexo como parametros .
+
+## Ejemplo
+
+```javascript
+ var perro1 = new Perro("Toby", "rottweiler", 2010, "Macho");
+
+ var edad = perro1.getEdad();
+// debe devolver 7 .
+
+```
+
+## Práctica 5 : Pokedex
+
+Utilizando el archivo Js [pokedex.js](https://raw.githubusercontent.com/josealvis/CursoPracticoAngularJs/master/ClasesJS/Clase%203/pokedex.js) Escribe un algoritmo que haga los siguiente:
+
+* Imprimir todos los pokemones de tipo 'fire'.
+* Imprimir todos los pokemones que tiene defensa > 55.
+* Imprimir todos los pokemones de tipo 'grass' y que tengan evolución.
+* Imprimir todos los pokemones con su nombre  y su número  de identificación .
+
+
 
 
 
@@ -91,6 +125,7 @@ function numeroPares(numero){
 
 * [Programa del curos ](https://docs.google.com/document/d/1j3U61KuTUJPq7oczKixI14C_hE8reU2We5R_ZkwTryo/edit?usp=sharing) :closed_book:
 * [Presentación #1](https://docs.google.com/presentation/d/1VKzNc8qd0Ahcj_voUKiXnWOR8HCrm_6ndgEeQyFYxSY/edit?usp=sharing) :closed_book:
+* [Presentación Objetos](https://docs.google.com/presentation/d/11qYio7S2bobqWcVd-HqLx3n_3q20sNKlbC9BwAcotw8/edit?usp=sharing) :closed_book:
 
 ### Videos
 * [clonar repositorio git con Visual Studio Code](https://www.youtube.com/watch?v=VOwyH2-VCVY) :movie_camera:
