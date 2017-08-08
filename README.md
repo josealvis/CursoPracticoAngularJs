@@ -117,6 +117,28 @@ Utilizando el archivo Js [pokedex.js](https://raw.githubusercontent.com/josealvi
 
 
 
+## Practica 6 : To-DO 
+
+
+Utilizando angularJs crear un TODO List. 
+
+La aplicación tendrá un input que va  recibir  una tarea, la cual se va agregar a una lista mediante un botón agregar.
+Cada elemento de la lista debe tener un botón el cual servirá para eliminar la tarea.
+
+
+> Requerimientos de la aplicación:
+>- Usar un elemento `input` y con la directiva `ng-model` para atar el  valor a una varible de tu controlador. Ej: `ng-model="vm.tarea"`
+>- Usar un botón con `ng-click` en el cual se le va a pasar a una función  la variable como parámetro. Ej: `ng-click="vm.agregar(vm.tarea)"`
+>- La función debe agregar el elemento nuevo a un array.
+>- Utilizar `ng-repeat` para  mostrar los datos del array en la vista.
+>- Dentro del `ng-repeat` agregar un botón borrar con un `ng-click` y una función que reciba como parámetro el `$index`.
+>- Usar `$index` dentro de la función para borrar los elementos del array.
+
+Ejemplo:
+![alt text](https://lh4.googleusercontent.com/2zx8hxTcIOnIE4HQ_Mb7ZClZgVVXQSiiUslfxi6uS_InIcfzUHH0CDAJHjL_crCJU5FWZTv7ZPflTw=w1920-h950)
+
+
+
 
 
 
@@ -126,6 +148,7 @@ Utilizando el archivo Js [pokedex.js](https://raw.githubusercontent.com/josealvi
 * [Programa del curos ](https://docs.google.com/document/d/1j3U61KuTUJPq7oczKixI14C_hE8reU2We5R_ZkwTryo/edit?usp=sharing) :closed_book:
 * [Presentación #1](https://docs.google.com/presentation/d/1VKzNc8qd0Ahcj_voUKiXnWOR8HCrm_6ndgEeQyFYxSY/edit?usp=sharing) :closed_book:
 * [Presentación Objetos](https://docs.google.com/presentation/d/11qYio7S2bobqWcVd-HqLx3n_3q20sNKlbC9BwAcotw8/edit?usp=sharing) :closed_book:
+* [Presentación  AngularJS](https://docs.google.com/presentation/d/1hwiYFjA8KS5AtyQ9XMnBvoTP8ogHBwvTF1i47PfdeU4/edit?usp=sharing) :closed_book:
 
 ### Videos
 * [clonar repositorio git con Visual Studio Code](https://www.youtube.com/watch?v=VOwyH2-VCVY) :movie_camera:
