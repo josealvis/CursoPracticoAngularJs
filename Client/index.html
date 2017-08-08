@@ -8,6 +8,9 @@
    <div ng-app="MyApp">
        <div  ng-controller="mainController as vm">
 
+
+       <div class="col-md-4">
+
            {{vm.texto}}
        
            <input class="form-control" type="text" ng-model="vm.texto"/>
@@ -31,6 +34,27 @@
                </tbody>
 
            </table>
+       </div>
+            <div class=" col-md-3 panel panel-default" >
+  <div class="panel-body">
+      <h2>ToDo List</h2>
+      <table class="table">
+               <thead>
+                   <tr>
+                       <td> <input class="form-control" type="text"  ng-model="vm.tarea"  placeholder="Agregar tarea"/></td>
+                       <td><button class="btn btn-success" ng-click="vm.agregar(vm.tarea)">Agregar </button> </td>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr ng-repeat="tarea in   vm.listaTarea track by $index">
+                       <td><input  type="checkbox" /> {{tarea}}</td>
+                        <td><button class="btn btn-warning" ng-click="vm.borrar($index)">Borrar </button> </td>
+                       
+                   </tr>
+               </tbody>
+           </table>
+  </div>
+</div>
 
 
     </div>

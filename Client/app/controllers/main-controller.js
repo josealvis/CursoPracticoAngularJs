@@ -18,10 +18,24 @@ angular
         {producto: 'Leche', precio: 60, fechaEx: new Date()},
         {producto: 'Arroz', precio: 25, fechaEx: new Date()}
       ];
+      vm.tarea;
+      vm.listaTarea = [] ;
+      vm.agregar = agregar;
+      vm.borrar = borrar;
+
+       function agregar(elemento){
+        vm.listaTarea.push(elemento);
+        vm.tarea ="";
+       }
+    
+      function borrar(index){
+          vm.listaTarea.splice(index,1);
+       }
 
 
 
     
+     
       function alertarTexto(){
       alert(vm.texto);
       }
