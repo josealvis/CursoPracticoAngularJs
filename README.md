@@ -134,8 +134,7 @@ Cada elemento de la lista debe tener un botón el cual servirá para eliminar la
 >- Dentro del `ng-repeat` agregar un botón borrar con un `ng-click` y una función que reciba como parámetro el `$index`.
 >- Usar `$index` dentro de la función para borrar los elementos del array.
 
-Ejemplo:
-![alt text](https://lh4.googleusercontent.com/2zx8hxTcIOnIE4HQ_Mb7ZClZgVVXQSiiUslfxi6uS_InIcfzUHH0CDAJHjL_crCJU5FWZTv7ZPflTw=w1920-h950)
+[Ejemplo](https://drive.google.com/file/d/0B38G7y0w4L_ESWVjRWo1cDR1dE0/view)
 
 
 
