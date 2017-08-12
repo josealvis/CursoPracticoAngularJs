@@ -5,7 +5,7 @@ angular
      .module("MyApp")
      .controller('mainController',controller);
 
-     function controller(){
+     function controller($http){
 
       var vm = this;
       vm.texto = "";
@@ -23,22 +23,26 @@ angular
       vm.agregar = agregar;
       vm.borrar = borrar;
 
-       function agregar(elemento){
+
+    active();  
+
+    function active(){
+        $http.get("/service",{data:null}).then(function(data){
+            vm.texto = data.data;
+        });
+    }
+
+    function agregar(elemento){
         vm.listaTarea.push(elemento);
         vm.tarea ="";
-       }
-    
-      function borrar(index){
+     }
+    function borrar(index){
           vm.listaTarea.splice(index,1);
-       }
+     }
 
-
-
-    
-     
-      function alertarTexto(){
+    function alertarTexto(){
       alert(vm.texto);
-      }
+     } 
 
 
 
