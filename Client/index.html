@@ -3,72 +3,16 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-<body>
-
-   <div ng-app="MyApp">
-       <div  ng-controller="mainController as vm">
-
-
-       <div class="col-md-4">
-
-           {{vm.texto}}
-       
-           <input class="form-control" type="text" ng-model="vm.texto"/>
-           <button ng-click="vm.alertarTexto()">Dialogo</button>
-           <table class="table" ng-show="true">
-               <thead>
-                   <tr>
-                       <th>Index</th>
-                       <th>Producto</th>
-                       <th>Precio</th>
-                       <th>Fecha Ex</th>
-                   </tr>
-               </thead>
-               <tbody>
-                   <tr ng-repeat="comida in vm.listadoComida2 | limitTo: 3 | filter : {producto: vm.texto} | orderBy : 'producto':-1  ">
-                       <td>{{$index| number : 2}}</td>
-                       <td>{{comida.producto  | uppercase}}</td>
-                       <td>{{comida.precio | currency : 'RD$ '}}</td>
-                       <td>{{comida.fechaEx | date:"dd/MM/yyyy" }}</td>
-                   </tr>
-               </tbody>
-
-           </table>
-       </div>
-            <div class=" col-md-3 panel panel-default" >
-  <div class="panel-body">
-      <h2>ToDo List</h2>
-      <table class="table">
-               <thead>
-                   <tr>
-                       <td> <input class="form-control" type="text"  ng-model="vm.tarea"  placeholder="Agregar tarea"/></td>
-                       <td><button class="btn btn-success" ng-click="vm.agregar(vm.tarea)">Agregar </button> </td>
-                   </tr>
-               </thead>
-               <tbody>
-                   <tr ng-repeat="tarea in   vm.listaTarea track by $index">
-                       <td><input  type="checkbox" /> {{tarea}}</td>
-                        <td><button class="btn btn-warning" ng-click="vm.borrar($index)">Borrar </button> </td>
-                       
-                   </tr>
-               </tbody>
-           </table>
-  </div>
-</div>
-
-
-    </div>
-    
-
-
-   </div>
+<body ng-app="MyApp">
+<div ng-include="'app/Shell/layout.html'"></div>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="../Plugin/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
 <script src="app/main.js"></script>
-<script src="app/controllers/main-controller.js"></script>
+<script src="app/catalogo/el-producto.component.js"></script>
+<script src="app/catalogo/catalogo.component.js"></script>
 
 </body>
 </HTML>
