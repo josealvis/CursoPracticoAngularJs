@@ -8,15 +8,16 @@ angular
       .config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "main.htm"
-    })
-    .when("/red", {
-        templateUrl : "red.htm"
-    })
-    .when("/green", {
-        templateUrl : "green.htm"
-    });
-      
+        templateUrl : "/app/views/home.html"
+         })
+      .when("/contactos", {
+        templateUrl : "/app/views/contactos.html"
+         })
+        .when("/catalogo", {
+        template: "<catalogo></catalogo>"
+         }) ;
+
+
       });
 
 
