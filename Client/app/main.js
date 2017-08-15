@@ -1,19 +1,19 @@
 (function(){
 'uses strict'
 
-angular.module("MyApp", ['ngRoute']);
+angular.module("Myapp", ['ngRoute']);
 
 angular
-      .module("MyApp")
+      .module("Myapp")
       .config(function($routeProvider) {
     $routeProvider
     .when("/", {
         templateUrl : "/app/views/home.html"
          })
-      .when("/contactos", {
+      .when("/contacto", {
         templateUrl : "/app/views/contactos.html"
          })
-        .when("/catalogo", {
+        .when("/catalogos", {
         template: "<catalogo></catalogo>"
          }) ;
 
