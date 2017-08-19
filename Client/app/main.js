@@ -1,10 +1,10 @@
 (function(){
 'uses strict'
 
-angular.module("Myapp", ['ngRoute']);
+angular.module("MyApp", ['ngRoute']);
 
 angular
-      .module("Myapp")
+      .module("MyApp")
       .config(function($routeProvider) {
     $routeProvider
     .when("/", {
@@ -13,7 +13,7 @@ angular
       .when("/contacto", {
         templateUrl : "/app/views/contactos.html"
          })
-        .when("/catalogos", {
+        .when("/catalogo", {
         template: "<catalogo></catalogo>"
          }) ;
 
