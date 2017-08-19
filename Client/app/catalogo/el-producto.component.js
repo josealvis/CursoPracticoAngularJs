@@ -15,7 +15,9 @@ function controller(){
                    imgUrl: '<',
                    nombre: '<',
                    desc: '<',
-                   precio: '<'
+                   precio: '<',
+                   productoId: '<',
+                   agregarAlCarrito: '&'
                }
 
            });

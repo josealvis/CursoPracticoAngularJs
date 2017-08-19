@@ -1,21 +1,16 @@
-<div class="row">
-<input class="form-control"  type="text"  placeholder="nombre del producto" >
+<div class="row" style="padding-bottom: 20px;">
+<input class="form-control"  type="text"  placeholder="nombre del producto" ng-model="vm.search.text" >
 </div>
+
 <div class="row">
-
-
-<el-producto ng-repeat="producto in vm.productos" 
+<el-producto ng-repeat="producto in vm.productos | filter : {nombre: vm.search.text} " 
   img-url="producto.imgUrl"
   nombre="producto.nombre"
   desc="producto.desc"
   precio="producto.precio"
+  producto-id="producto.id"
+  agregar-al-carrito="vm.agregarCarrito(id)"
   >
 </el-producto>
-
-
-
-
-
-
-
+<code>{{vm.carrito}}</code>
 </div
