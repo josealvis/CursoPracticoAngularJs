@@ -30,6 +30,7 @@
            {id: 3,imgUrl:'/media/ProductsImg/003.jpg',nombre:"otro",desc:"bla bla bla bla.",precio:60},
            {id: 4,imgUrl:'/media/ProductsImg/004.jpg',nombre:"lo que sea",desc:"bla bla bla bla.",precio:20},
            {id: 5,imgUrl:'/media/ProductsImg/005.jpg',nombre:"algo",desc:"bla bla bla bla.",precio:1200},
+           {id: 6,imgUrl:'/media/ProductsImg/005.jpg',nombre:"algo",desc:"bla bla bla bla.",precio:1200},
              ];
             return  data;
         }
